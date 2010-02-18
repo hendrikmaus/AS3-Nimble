@@ -34,13 +34,6 @@ FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 
 
-Requirements
-------------
-Greensocks TweenLite: http://www.greensock.com/tweenlite/
-	com.greensock.TweenLite
-	com.greensock.easing.*;
-
-
 Description
 -----------
 Nimble is built to achieve fluid layouts in Flash applications real quick.
@@ -56,21 +49,10 @@ Create an object to hold any of the following parameters and pass that object to
 					
 - margin: 	 (number) default: 0
 
-- tweenType: (object) Expo.easeOut (every easing Greensocks TweenLite has to offer)
-				      default: Expo.easeOut
-				
-- tweenTime: (number) default: 0.5
-
 
 Example:
 --------
 
-var paramObj:Object = {
-	alignment: "BOTTOM",
-	margin: 20,
-	tweenType: Elastic.easeOut,
-	tweenTime: 1
-}
-new Nimble(displayObject, paramObj);
+new Nimble(displayObject, {alignment: "TOP_LEFT", margin: 20});
 
 For another example see the attached project.

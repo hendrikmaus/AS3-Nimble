@@ -155,13 +155,8 @@ package net.aidentailor.layout.nimble
 		 */
 		public function draw():void
 		{
-			// get current dimensions of the stage
-			var stageWidth:Number  = _stage.stageWidth;
-			var stageHeight:Number = _stage.stageHeight;
-			
-			// calculate the new x & y
-			if (_parameterObject.x != undefined) _newX = (stageWidth  * _parameterObject.x) + _parameterObject.offsetX;
-			if (_parameterObject.y != undefined) _newY = (stageHeight * _parameterObject.y) + _parameterObject.offsetY;
+			// check parameter values
+			_parameterObject = checkParameters(_parameterObject);
 			
 			// assigns coordinates to target
 			_target.x = _newX;
@@ -175,6 +170,18 @@ package net.aidentailor.layout.nimble
 		 */
 		private function checkParameters(parameterObject:Object):Object
 		{
+			// get current dimensions of the stage
+			var stageWidth:Number  = _stage.stageWidth;
+			var stageHeight:Number = _stage.stageHeight;
+	
+			//
+			_newX = _target.x;
+			_newY = _target.y;
+			
+			// calculate the new x & y
+			if (parameterObject.x != undefined) _newX = (stageWidth  * parameterObject.x) + parameterObject.offsetX;
+			if (parameterObject.y != undefined) _newY = (stageHeight * parameterObject.y) + parameterObject.offsetY;
+			
 			// set default alignment
 			if (parameterObject.alignment == undefined) parameterObject.alignment = "MIDDLE";
 			
