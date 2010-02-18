@@ -218,6 +218,8 @@ package net.aidentailor.layout.nimble
 		public function set parameterObject(parameterObject:Object):void
 		{
 			_parameterObject = parameterObject;
+			
+			// rebuild the Nimble with the new parameters
 			createNimble(_target, _parameterObject);
 		}
 	}

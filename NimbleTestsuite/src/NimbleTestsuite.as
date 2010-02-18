@@ -7,7 +7,7 @@ package
 	import flash.display.Sprite;
 	import net.aidentailor.layout.nimble.Nimble;
 
-	[SWF(width="1100", height="700", frameRate="24", backgroundColor="0xFFFFFF")]
+	[SWF(width="1100", height="700", frameRate="30", backgroundColor="0xFFFFFF")]
 
 	/**
 	 * @author aidentailor
