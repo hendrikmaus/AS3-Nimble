@@ -1,0 +1,11 @@
+February 18th 2010 - Nimble v 0.2
+------------------------------------------------------------------------
+- merged Nimble.as and NimbleBase.as to Nimble.as
+- removed tweening effect because it was causing latency
+- converted mathamatical conversions to bitwise operations
+  i.e. offset * .5 was replaced by offset >> 1
+- added getter and setter for parameterObject
+
+------------------------------------------------------------------------
+February 17th 2010 - Nimble v 0.1
+------------------------------------------------------------------------
