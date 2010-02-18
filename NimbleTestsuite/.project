@@ -36,11 +36,6 @@
 			<locationURI>Flex_3_SDK_0/frameworks/libs/rpc.swc</locationURI>
 		</link>
 		<link>
-			<name>sandbox</name>
-			<type>2</type>
-			<locationURI>sandbox</locationURI>
-		</link>
-		<link>
 			<name>utilities.swc</name>
 			<type>1</type>
 			<locationURI>Flex_3_SDK_0/frameworks/libs/utilities.swc</locationURI>
