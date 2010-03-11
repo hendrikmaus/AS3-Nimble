@@ -1,4 +1,4 @@
-Nimble Layout Framework v0.1
+Nimble Layout Framework v0.2
 ----------------------------
 
 Author 		Aiden Tailor
