@@ -4,7 +4,7 @@ Nimble Layout Framework v0.2
 Author 		Aiden Tailor
 Twitter 	@aidentailor
 Mail 		aidentailor@googlemail.com
-Web			aidentailor.net
+Web		aidentailor.net
 Blog		blog.aidentailor.net
 
 
